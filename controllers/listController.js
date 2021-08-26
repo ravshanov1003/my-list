@@ -1,5 +1,4 @@
 const List = require('../models/listModel')
-const { writeDataToFile } = require('../utils')
 
 async function getTodos(req, res) {
     try {
