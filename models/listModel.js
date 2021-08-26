@@ -23,7 +23,7 @@ const create = (list) => {
             ...list
         }
         lists.push(newList)
-        writeDataToFile('./data.json', lists)
+        writeDataToFile('../data.json', lists)
         resolve(newList)
     })
 }

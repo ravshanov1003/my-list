@@ -38,7 +38,7 @@ async function createTodo(req, res) {
         const newList = await List.create(list)
         res.send(newList)
     } catch (e) {
-        console.log(e)
+        console.log(e, 'createTodo error')
     }
 }
 
