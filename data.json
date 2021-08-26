@@ -1,0 +1,29 @@
+[{
+        "title": "Learning Node.js",
+        "description": "Read documentation about express middlewares and usage",
+        "status": "OPEN",
+        "createdAt": "2011-10-05T14:48:00.000Z",
+        "priority": "HIGH"
+    },
+    {
+        "title": "Learning MongoDB",
+        "description": "Read documentation and study at mongoDB university",
+        "status": "OPEN",
+        "createdAt": "2015-09-05T12:28:00.000Z",
+        "priority": "HIGH"
+    },
+    {
+        "title": "Learning React.js",
+        "description": "Read documentation",
+        "status": "CLOSE",
+        "createdAt": "2018-10-05T14:48:00.000Z",
+        "priority": "MIDDLE"
+    },
+    {
+        "title": "Learning C++",
+        "description": "Read documentation",
+        "status": "CLOSE",
+        "createdAt": "2010-10-05T14:48:00.000Z",
+        "priority": "LOW"
+    }
+]
