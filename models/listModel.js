@@ -1,6 +1,6 @@
 const { v4: uuid } = require('uuid')
 
-const lists = require('../data.json')
+let lists = require('../data.json')
 const { writeDataToFile } = require('../utils')
 
 const readAll = _ => {
@@ -11,7 +11,7 @@ const readAll = _ => {
 
 const readById = (id) => {
     return new Promise((resolve, reject) => {
-        const list = lists.find(p => p.id === id)
+        let list = lists.find(p => p.id === id)
         resolve(list)
     })
 }
@@ -30,7 +30,7 @@ const create = (list) => {
 
 const update = (id, list) => {
     return new Promise((resolve, reject) => {
-        const index = lists.findIndex(p => p.id === id)
+        let index = lists.findIndex(p => p.id === id)
         lists[index] = { id, ...list }
         writeDataToFile('./data.json', lists)
         resolve(lists)
@@ -39,9 +39,9 @@ const update = (id, list) => {
 
 function deleteList(id) {
     return new Promise((resolve, reject) => {
-        lists = lists.filter(p => p.id === id)
+        lists = lists.filter(p => p.id !== id)
         writeDataToFile('./data.json', lists)
-        resolve(lists)
+        resolve()
     })
 }
 

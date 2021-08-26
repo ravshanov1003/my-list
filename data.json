@@ -1,50 +1,39 @@
-[
-  {
-    "id": "1",
-    "title": "Learning Node.js",
-    "description": "Read documentation about express middlewares and usage",
-    "status": "OPEN",
-    "createdAt": "2011-10-05T14:48:00.000Z",
-    "priority": "HIGH"
-  },
-  {
-    "id": "2",
-    "title": "Learning React.js",
-    "description": "Read documentation ",
-    "status": "CLOSED",
-    "createdAt": "2018-08-05T12:18:00.000Z",
-    "priority": "LOW"
-  },
-  {
-    "id": "3",
-    "title": "Learning MongoDB",
-    "description": "Read documentation and learn",
-    "status": "OPEN",
-    "createdAt": "2019-12-05T14:48:00.000Z",
-    "priority": "NORMAL"
-  },
-  {
-    "id": "bc451a6b-025a-41ff-8480-1bf4902db5a2",
-    "title": "Learning Java",
-    "description": "Read documentation",
-    "status": "CLOSED",
-    "createdAt": "2015-01-05T14:20:00.000Z",
-    "priority": "LOW"
-  },
-  {
-    "id": "2f249be9-1ecb-49fb-ab47-f37a57c5eddc",
-    "title": "Sleep",
-    "description": "sleep on bed",
-    "status": "CLOSE",
-    "createdAt": "2010-10-05T14:48:00.000Z",
-    "priority": "LOW"
-  },
-  {
-    "id": "dc41e55f-92f1-4043-b0ac-4994616d5a6f",
-    "title": "Learning C++",
-    "description": "Read documentation",
-    "status": "CLOSED",
-    "createdAt": "2015-01-05T14:20:00.000Z",
-    "priority": "LOW"
-  }
+[{
+        "id": "1",
+        "title": "Learning Node.js",
+        "description": "Read documentation about express middlewares and usage",
+        "status": "OPEN",
+        "createdAt": "2011-10-05T14:48:00.000Z",
+        "priority": "HIGH"
+    }, {
+        "id": "2",
+        "title": "Learning React.js",
+        "description": "Read documentation ",
+        "status": "CLOSED",
+        "createdAt": "2018-12-05T14:48:00.000Z",
+        "priority": "LOW"
+    }, {
+        "id": "3",
+        "title": "Learning MongoDB",
+        "description": "Read documentation and learn",
+        "status": "OPEN",
+        "createdAt": "2011-10-05T14:48:00.000Z",
+        "priority": "HIGH"
+    },
+    {
+        "id": "4",
+        "title": "Learning C++",
+        "description": "Read documentation about this language",
+        "status": "CLOSED",
+        "createdAt": "2019-08-05T14:48:00.000Z",
+        "priority": "LOW"
+    },
+    {
+        "id": "5",
+        "title": "Sleep",
+        "description": "sleep on bed",
+        "status": "CLOSE",
+        "createdAt": "2010-10-05T14:48:00.000Z",
+        "priority": "LOW"
+    }
 ]

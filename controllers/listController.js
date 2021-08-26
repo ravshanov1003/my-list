@@ -77,7 +77,7 @@ async function deleteTodo(req, res) {
                 message: 'List not founded'
             })
         } else {
-            await List.deleteList()
+            await List.deleteList(id)
             res.send({
                 message: 'List has been deleted'
             })
@@ -92,5 +92,5 @@ module.exports = {
     getTodo,
     createTodo,
     updateTodo,
-
+    deleteTodo
 }
