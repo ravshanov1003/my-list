@@ -1,4 +1,5 @@
 [{
+        "id": "1",
         "title": "Learning Node.js",
         "description": "Read documentation about express middlewares and usage",
         "status": "OPEN",
@@ -6,6 +7,7 @@
         "priority": "HIGH"
     },
     {
+        "id": "2",
         "title": "Learning MongoDB",
         "description": "Read documentation and study at mongoDB university",
         "status": "OPEN",
@@ -13,6 +15,7 @@
         "priority": "HIGH"
     },
     {
+        "id": "3",
         "title": "Learning React.js",
         "description": "Read documentation",
         "status": "CLOSE",
@@ -20,6 +23,7 @@
         "priority": "MIDDLE"
     },
     {
+        "id": "4",
         "title": "Learning C++",
         "description": "Read documentation",
         "status": "CLOSE",
