@@ -1,16 +1,12 @@
 const express = require("express")
 
-const { getTodos, getTodo, createTodo, updateTodo, deleteTodo } = require('./controllers/listController')
+const { router } = require('./routes/listRouter')
 
 const app = express()
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
-app.get('/', getTodos)
-app.get('/:id', getTodo)
-app.post('/', createTodo)
-app.put('/:id', updateTodo)
-app.delete('/:id', deleteTodo)
+app.use('/todo', router)
 
 app.listen(3000, _ => console.log('server is running on port 3000'))
