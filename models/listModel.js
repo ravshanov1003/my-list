@@ -45,10 +45,25 @@ function deleteList(id) {
     })
 }
 
+function change(id) {
+    return new Promise((resolve, reject) => {
+        const index = lists.findIndex(p => p.id === id);
+        if (lists[index].status === "Open") {
+            lists[index].status = "Close"
+        } else {
+            lists[index].status = "Open"
+        }
+
+        writeDataToFile('./data.json', lists)
+        resolve(lists)
+    })
+}
+
 module.exports = {
     readAll,
     readById,
     create,
     update,
-    deleteList
+    deleteList,
+    change
 }

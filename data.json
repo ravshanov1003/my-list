@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Learning Node.js",
-    "description": "Read documentation about express middlewares and usage",
+    "description": "Read documentation about express middleWares and usage",
     "status": "OPEN",
     "createdAt": "2011-10-05T14:48:00.000Z",
     "priority": "HIGH"
@@ -11,7 +11,7 @@
     "id": "2",
     "title": "Learning React.js",
     "description": "Read documentation ",
-    "status": "CLOSED",
+    "status": "CLOSE",
     "createdAt": "2018-12-05T14:48:00.000Z",
     "priority": "LOW"
   },
@@ -27,7 +27,7 @@
     "id": "4",
     "title": "Learning C++",
     "description": "Read documentation about this language",
-    "status": "CLOSED",
+    "status": "CLOSE",
     "createdAt": "2019-08-05T14:48:00.000Z",
     "priority": "LOW"
   },
@@ -46,5 +46,29 @@
     "status": "CLOSE",
     "createdAt": "2010-10-05T14:48:00.000Z",
     "priority": "LOW"
+  },
+  {
+    "id": "b1af08d3-8e0f-422f-bbef-e6831d43eb6c",
+    "title": "Learning C++",
+    "description": "Read documentation about this language",
+    "status": "CLOSE",
+    "createdAt": "2019-08-05T14:48:00.000Z",
+    "priority": "LOW"
+  },
+  {
+    "id": "7a10a901-3d4a-4731-815f-10ee9c7c7b48",
+    "title": "Sleep",
+    "description": "sleep on bed",
+    "status": "CLOSE",
+    "createdAt": "2010-10-05T14:48:00.000Z",
+    "priority": "LOW"
+  },
+  {
+    "id": "af4ecd4f-1efb-43d5-bf76-f741cd5e8d82",
+    "title": "Learning MongoDB",
+    "description": "Read documentation and learn",
+    "status": "OPEN",
+    "createdAt": "2011-10-05T14:48:00.000Z",
+    "priority": "HIGH"
   }
 ]

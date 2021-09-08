@@ -86,10 +86,36 @@ async function deleteTodo(req, res) {
     }
 }
 
+async function changeStatus(req, res) {
+    const { id } = req.params
+    const { title, description, status, createdAt, priority } = req.body
+    try {
+        let list = await List.readById(id)
+        if (!list) {
+            res.status(404).send({
+                message: 'List not found'
+            })
+        } else {
+            const listData = {
+                title: title,
+                description: description,
+                status: status || list.status,
+                createdAt: createdAt,
+                priority: priority
+            }
+            let newList = await List.change(listData)
+            res.send(newList)
+        }
+    } catch (e) {
+        console.log(e, 'changeStatus error')
+    }
+}
+
 module.exports = {
     getTodos,
     getTodo,
     createTodo,
     updateTodo,
-    deleteTodo
+    deleteTodo,
+    changeStatus
 }
